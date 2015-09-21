@@ -29,7 +29,11 @@ public class AddressBook
 		
 		public static void main(String[] args)
 		{
-			BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 1234);
+			BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "1234");
+			AddressBook aB = new AddressBook();
+			
+			aB.addBuddy(buddy);
+			aB.removeBuddy(0);
 		}
 	
 }
