@@ -34,6 +34,9 @@ public class AddressBook
 			
 			aB.addBuddy(buddy);
 			aB.removeBuddy(0);
+			
+			BuddyInfo buddy = new BuddyInfo("Blue", "Blue", "Blue");
+			
 		}
 	
 }
