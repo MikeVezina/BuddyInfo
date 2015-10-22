@@ -43,7 +43,11 @@ public class BuddyInfo
 		this.homeAddress = homeAddress;
 	}
 	
-	
+	@Override
+	public String toString()
+	{
+		return "Buddy Name: " + name + "\nHome Address: " + homeAddress + "\nPhone Number: " + phoneNumber;
+	}
 	
 
 }
